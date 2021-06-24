@@ -1,0 +1,13 @@
+<h1>
+  {{record.name}}
+</h1>
+<table>
+  <tr>
+    <th>Course Name</th>
+  </tr>
+  <tr *ngFor="let i of record.Courses">
+    <td>
+      {{i.name}}
+    </td>
+  </tr>
+</table>
